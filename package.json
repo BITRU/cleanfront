@@ -1,0 +1,26 @@
+{
+  "private": true,
+  "packageManager": "pnpm@7.5.0",
+  "scripts": {
+    "build": "nuxi build",
+    "dev": "nuxi dev",
+    "start": "node .output/server/index.mjs",
+    "lint": "eslint ."
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^0.25.2",
+    "@iconify-json/carbon": "^1.1.6",
+    "@iconify-json/twemoji": "^1.1.5",
+    "@nuxtjs/color-mode": "^3.1.4",
+    "@nuxtjs/supabase": "^0.1.18",
+    "@pinia/nuxt": "^0.1.9",
+    "@supabase/gotrue-js": "^1.22.19",
+    "@supabase/supabase-js": "^1.35.4",
+    "@unocss/nuxt": "^0.43.2",
+    "@vueuse/nuxt": "^8.8.0",
+    "eslint": "^8.19.0",
+    "nuxt": "^3.0.0-rc.1",
+    "pinia": "^2.0.14",
+    "typescript": "^4.7.4"
+  }
+}
