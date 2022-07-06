@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { useUserStore } from '@/stores/user'
 import { useCompanyStore } from '@/stores/company'
+const { user, error } = await auth.signIn({ email: 'ilyabitru@gmail.com', password: 'password' })
 
 const router = useRouter()
 const user = useUserStore()

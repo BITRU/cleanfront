@@ -10,11 +10,15 @@ specifiers:
   '@supabase/gotrue-js': ^1.22.19
   '@supabase/supabase-js': ^1.35.4
   '@unocss/nuxt': ^0.43.2
+  '@vee-validate/i18n': ^4.5.11
+  '@vee-validate/rules': ^4.5.11
   '@vueuse/nuxt': ^8.8.0
   eslint: ^8.19.0
-  nuxt: ^3.0.0-rc.1
+  maska: ^1.5.0
+  nuxt: ^3.0.0-rc.3
   pinia: ^2.0.14
   typescript: ^4.7.4
+  vee-validate: ^4.5.11
 
 devDependencies:
   '@antfu/eslint-config': 0.25.2_4x5o4skxv6sl53vpwefgt23khm
@@ -26,11 +30,15 @@ devDependencies:
   '@supabase/gotrue-js': 1.22.19
   '@supabase/supabase-js': 1.35.4
   '@unocss/nuxt': 0.43.2
+  '@vee-validate/i18n': 4.5.11
+  '@vee-validate/rules': 4.5.11
   '@vueuse/nuxt': 8.8.0
   eslint: 8.19.0
+  maska: 1.5.0
   nuxt: 3.0.0-rc.4
   pinia: 2.0.14_typescript@4.7.4
   typescript: 4.7.4
+  vee-validate: 4.5.11
 
 packages:
 
@@ -1390,6 +1398,14 @@ packages:
       - esbuild
       - rollup
       - vite
+    dev: true
+
+  /@vee-validate/i18n/4.5.11:
+    resolution: {integrity: sha512-RMPF+nabSD4BIpbPpqKvsuAqUY00WfV9C/M3pEBzwgt2mUlv6nu9TsA5ybuI/UhLf8whqVnaiV2BOMwft+4OgQ==}
+    dev: true
+
+  /@vee-validate/rules/4.5.11:
+    resolution: {integrity: sha512-aGwxjr/5/w8LFVObPB6UrqYt0oRlHHFw8/nxZHowY4LP62GWlAi+mAp1fb15Paav/c9rgV4iiqsNYarS1zpNQw==}
     dev: true
 
   /@vercel/nft/0.20.0:
@@ -4372,6 +4388,10 @@ packages:
       semver: 6.3.0
     dev: true
 
+  /maska/1.5.0:
+    resolution: {integrity: sha512-BwZXzs5gHeu6wtn3iWFqrKRtcsM3sTpkHvfAngVNVNlN7tl9ZyQUeHTz11s9Sy7Bq1MoQ+xyR/+IzghY8nR84Q==}
+    dev: true
+
   /mdast-util-from-markdown/0.8.5:
     resolution: {integrity: sha512-2hkTXtYYnr+NubD/g6KGBS/0mFmBcifAsI0yIWRiRo0PjVs6SSOSOdtzbp6kSGnShDN6G5aWZpKQ2lWRy27mWQ==}
     dependencies:
@@ -6800,6 +6820,14 @@ packages:
     dependencies:
       spdx-correct: 3.1.1
       spdx-expression-parse: 3.0.1
+    dev: true
+
+  /vee-validate/4.5.11:
+    resolution: {integrity: sha512-bNF2TtuRnLnPsw6+Q/P3bMx8c2iJbvQmyikTr9r65PLAdqtdhQxnsIS3ayYNIzNWZ50sysv01DteN9h3XT/gFg==}
+    peerDependencies:
+      vue: ^3.0.0
+    dependencies:
+      '@vue/devtools-api': 6.1.4
     dev: true
 
   /vite-node/0.14.2:
